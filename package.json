@@ -1,0 +1,17 @@
+{
+  "name": "electron-ts",
+  "version": "1.0.0",
+  "description": "Yet another Electron application",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/electron/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Hirczy <https://nehalist.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.5",
+    "typescript": "^3.7.3"
+  }
+}
